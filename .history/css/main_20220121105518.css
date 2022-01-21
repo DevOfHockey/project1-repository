@@ -91,60 +91,6 @@ textarea {
    LAYOUT
    ========================================================================== */
 
-   .grid-container {
-     display: grid;
-     max-width: 85rem;
-     margin: auto; /* centers the browser*/
-   }
-
-   div,
-   section,
-   footer,
-   header,
-   nav {
-     outline: 1px solid #cccc;
-   }
-
-
-
-    /* Small only */
-    @media screen and (max-width: 39.9375em) {}
-
-    /* Medium and up */
-    @media screen and (min-width: 40em) {
-      .m-col-2 {
-        grid-template-columns: 1fr 1fr;
-      }
-      .m-col-3 {
-        grid-template-columns: repeat(3fr 1fr);
-      }
-
-      .m-col-4 {
-        grid-template-columns: repeat(4fr 1fr);
-      }
-
-      .m-col-5 {
-        grid-template-columns: repeat(5fr 1fr);
-      }
-      .m-col-6 {
-        grid-template-columns: repeat(6fr 1fr);
-      }
-
-
-      .m-span-2 {
-        grid-column-end: span 2;
-      }
-    }
-
-    /* Medium only */
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
-
-    /* Large and up */
-    @media screen and (min-width: 64em) {}
-
-    /* Large only */
-    @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
-
 /* ==========================================================================
    UTILITIES
    ========================================================================== */

@@ -105,8 +105,6 @@ textarea {
      outline: 1px solid #cccc;
    }
 
-
-
     /* Small only */
     @media screen and (max-width: 39.9375em) {}
 
@@ -115,24 +113,9 @@ textarea {
       .m-col-2 {
         grid-template-columns: 1fr 1fr;
       }
-      .m-col-3 {
-        grid-template-columns: repeat(3fr 1fr);
-      }
 
-      .m-col-4 {
-        grid-template-columns: repeat(4fr 1fr);
-      }
-
-      .m-col-5 {
-        grid-template-columns: repeat(5fr 1fr);
-      }
-      .m-col-6 {
-        grid-template-columns: repeat(6fr 1fr);
-      }
-
-
-      .m-span-2 {
-        grid-column-end: span 2;
+      .m-col-2 {
+        grid-template-columns: 1fr 1fr;
       }
     }
 
