@@ -10,7 +10,12 @@ div,
 section,
 main,
 nav {
-    outline: 1px solid #ccc;
+    /* outline: 1px solid #ccc; */
+}
+
+.main-nav {
+    padding: 0;
+    margin: 0;
 }
 
 .page {
@@ -38,6 +43,29 @@ nav {
     padding: 3rem;
 }
 
+.content1, .content5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    background-color: #ccc;
+}
+
+.content6 {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+    /* align-items: center; */
+}
+
+/* COME BACK A LATER DAY TO FIX CONTENT TO PUT IT IN THE RIGHT SPOT WHILE STILL HAVING THE SPACING W/ JUSTIFY-CONTENT SPACE-BETWEEN & CENTER */
+
+
 
 /* breakpoints */
 
@@ -54,9 +82,8 @@ nav {
 }
 
 .menu-item {
-    padding: 1rem;
+    padding: 0rem;  /* individual nav menu items */
 }
-
 
 /* Small only */
 
@@ -180,7 +207,7 @@ nav {
    ========================================================================== */
 
 .page__header {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255);
 }
 
 
