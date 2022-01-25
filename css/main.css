@@ -43,18 +43,18 @@ nav {
     padding: 3rem;
 }
 
-.content1, .content5 {
+.content__headerimage, .content__thingsofabove { /* content 1 & 5*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.content1 {
+.content__headerimage {
     background-color: #ccc;
 }
 
-.content6 {
+.content__companies { /* content 6*/
     margin: 10px;
     display: flex;
     flex-direction: row;
@@ -62,10 +62,6 @@ nav {
     max-width: 50%;
     /* align-items: center; */
 }
-
-/* COME BACK A LATER DAY TO FIX CONTENT TO PUT IT IN THE RIGHT SPOT WHILE STILL HAVING THE SPACING W/ JUSTIFY-CONTENT SPACE-BETWEEN & CENTER */
-
-
 
 /* breakpoints */
 
