@@ -5,11 +5,21 @@
    * {
     box-sizing: border-box;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #494949;
+    margin: 10px;
+    margin-top: 40px;
 }
 
 p {
     color: #a3a3a3; 
+}
+
+.menu-item1 > p, .menu-item2 > p, .menu-item3 > p, .menu-item4 > p, .menu-item5 > p {
+    color: #ffffff; 
 }
 
 div,
@@ -26,8 +36,7 @@ h4 {
 header {
     display: flex;
     justify-content: center;
-    font-family: 'Ubuntu', serif;
-    color: white important!;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .main-nav {
@@ -37,7 +46,6 @@ header {
 
 .menu-item0 {
     font-size: 30px;
-    font-style: bold;
     width:318px; 
     height:118px;
     display: flex;
@@ -102,27 +110,74 @@ header {
 }
 
 .content__headerimage, .content__thingsofabove { /* content 1 & 5*/
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+    position: relative;
+    text-align: center;
+}
+
+/* minion canvas */
+.container_metrostyle, .container_retinaready, .container_responsivedesign {
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: 20px;
+    font-style: bold;
+}
+.container_metrostyle {
+    top: 200px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.container_retinaready {
+    top: 250px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.container_responsivedesign {
+    top: 300px;
+    background-color: white;
+    padding: 5px 10px;
 }
 
 .content__headerimage {
     background-color: #ccc;
 }
-
-.container {
+.container__companies {
     display: flex;
     justify-content: space-between;
 }
+.cpny1, .cpny1, .cpny3, .cpny4, .cpny5 {
+    display: inline-block;
+    margin: 23px;
+}
 
-.content__footer {
+.page__footer {
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 24px;
-    grid-column-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    background: #16242f;
+}
+
+footer > p {
+    color: white;
+}
+
+.footer > img {
+    display: block;
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+     height: auto;
 }
 
 /* breakpoints */
@@ -139,7 +194,7 @@ header {
 }
 
 .menu-item {
-    padding: 0rem;  /* individual nav menu items */
+    padding: 0 rem;  /* individual nav menu items */
 }
 
 /* Small only */
