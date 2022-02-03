@@ -32,6 +32,16 @@ p {
     color: #ffffff; 
 }
 
+.Title {
+    display: flex;
+    color: white;
+}
+
+.Subtitle {
+    color: white;
+    font-size: 12px;
+}
+
 div,
 section,
 main,
@@ -134,23 +144,43 @@ header {
 
 .whatsuplately_img {
     position: relative;
-    padding: 15px;
+    margin: 15px;
+
+   
 }
 
 .sampleimagebar {
     display: flex;
+    justify-content: flex-end;
     background-color:#19b2de;
-    width: 301.997px;
+    width: 301.997px; 
     height: 48px;
     position: absolute;
+    margin: 15px;
+}
+
+.datebar {
+    display: flex;
+    flex-direction: column;
+    background-color:#d8605f;
+    width: 100px; 
+    height: 48px;
+
 }
 
 .content_work {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
+    
     
 }
+
+.hrline {
+    width: 55%;
+    background-color:gray;
+}
+
 
 .ourlatestprojects {
     display: flex;
@@ -299,6 +329,14 @@ footer > p {
 @media screen and (max-width: 39.9375em) {
     .s-hidden {
         display: none !important;
+    }
+    .things, .project1, .project2, .content_work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 4vw;
     }
 }
 
