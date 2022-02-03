@@ -1,7 +1,10 @@
 /* ==========================================================================
    LAYOUT
    ========================================================================== */
-
+   html{
+    display: flex;
+    justify-content: center;
+}
    * {
     box-sizing: border-box;
     text-align: center;
@@ -14,6 +17,13 @@ h1, h2, h3, h4, h5 {
     margin-top: 40px;
 }
 
+h3 {
+    color: #494949;
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 27px;
+}
+
 p {
     color: #a3a3a3; 
 }
@@ -22,10 +32,21 @@ p {
     color: #ffffff; 
 }
 
+.Title {
+    display: flex;
+    color: white;
+}
+
+.Subtitle {
+    color: white;
+    font-size: 12px;
+}
+
 div,
 section,
 main,
 nav {
+    /* outline: 1px solid #ccc; */
     /* outline: 1px solid #ccc; */
 }
 
@@ -38,6 +59,10 @@ header {
     justify-content: center;
     font-family: "Ubuntu", sans-serif;
 }
+
+.metrolicsblue {
+    color: #1eafde;
+  }
 
 .main-nav {
     padding: 0;
@@ -82,6 +107,109 @@ header {
     width:136px; 
     height:118px;
     background-color: #166ba2;
+}
+
+.heyguys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.things {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    
+}
+
+.content_things {
+    padding: 15px;
+}
+
+.whatsuplately {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.whatsuplately_img {
+    position: relative;
+    margin: 15px;
+
+   
+}
+
+.sampleimagebar {
+    display: flex;
+    justify-content: flex-end;
+    background-color:#19b2de;
+    width: 301.997px; 
+    height: 48px;
+    position: absolute;
+    margin: 15px;
+}
+
+.datebar {
+    display: flex;
+    flex-direction: column;
+    background-color:#d8605f;
+    width: 100px; 
+    height: 48px;
+
+}
+
+.content_work {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+    
+}
+
+.hrline {
+    width: 55%;
+    background-color:gray;
+}
+
+
+.ourlatestprojects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.project1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+}
+
+.project2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+}
+
+.ourlatestprojects_img {
+    padding: 15px;
 }
 
 .page {
@@ -203,6 +331,14 @@ footer > p {
     .s-hidden {
         display: none !important;
     }
+    .things, .project1, .project2, .content_work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
 }
 
 
@@ -321,6 +457,5 @@ footer > p {
 .page__header {
     background-color: rgb(255, 255, 255);
 }
-
 
 
