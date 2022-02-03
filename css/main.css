@@ -286,7 +286,7 @@ header {
     margin: 23px;
 }
 
-.page__footer {
+.row2 {
     text-align: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -296,7 +296,12 @@ footer {
     background: #16242f;
 }
 
-footer > p {
+.topoffooter {
+    text-align: left;
+}
+
+
+.page__footer > p, .page__footer > h4, .page__footer > h3 {
     color: white;
 }
 
@@ -305,7 +310,7 @@ footer > p {
     max-width:50px;
     max-height:50px;
     width: auto;
-     height: auto;
+    height: auto;
 }
 
 /* breakpoints */
