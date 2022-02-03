@@ -23,9 +23,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&amp;display=swap" rel="stylesheet">
 </head>
 <body>
+  
 
- <!-- directory -->
-
+  
 <header class="header">
     <div class="content__header">  <!-- grid-container: added to help organize-->
         <nav class="main-nav">
@@ -63,7 +63,7 @@
     </div>
 </header>
 
-
+<!-- container  -->
 
 <section class="minionheader">
   <div class="content__headerimage">   <!-- container  -->
@@ -86,36 +86,39 @@
   <div class="content__heyguys"> <!-- div spans across 2 points-->
     <h1>Hey guys! This is the <span class="metrolicsblue">Metrolics</span> theme.<br>
       It sports a responsive layout with a mobile layout.</h1>
-    </div>
-      <div>
-        <h3>Things That We Do</h3>
-        <p>Ask us what we can do for you</p>
-    </div>
+  </div>
+  <div>
+    <h3>Things That We Do</h3>
+    <p>Ask us what we can do for you</p>
+  </div>
 
-    <div class="things">
-      <img src="icon-websolutions.png" alt="Web Solutions">
+  <div class="things">
+
+    <div class="content_things">
+      <img src="img/icon-websolutions.png" alt="Web Solutions">
       <h4>Web Solutions</h4>
       <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
     </div>
 
-    <div class="things">
-      <img src="icon-photography.png" alt="Photography">
+    <div class="content_things">
+      <img src="img/icon-photography.png" alt="Photography">
       <h4>Photography</h4>
       <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
     </div>
 
-    <div class="things">
-      <img src="icon-webdevelopment.png" alt="Web Development">
+    <div class="content_things">
+      <img src="img/icon-webdevelopment.png" alt="Web Development">
       <h4>Web Development</h4>
       <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
     </div>
 
-    <div class="things">
-      <img src="icon-webdesign.png" alt="Web Design">
+    <div class="content_things">
+      <img src="img/icon-webdesign.png" alt="Web Design">
       <h4>Web Design</h4>
       <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
     </div>
-  </section>
+  </div>
+</section>
 
 
 
@@ -125,12 +128,21 @@
     <p>Read up on our latest work</p>
   </div>
 
-    <div class="grid">
-        <div class="grid-item"><img src="whatsuplately-left.jpg" alt="whatsuplatetely-left"></div>
-        <div class="grid-item"><img src="whatsuplately-center.jpg" alt="whatsuplatetely-center"></div>
-        <div class="grid-item"><img src="whatsuplately-right.jpg" alt="whatsuplatetely-right"></div>
+  <div class="work">
+    <div class="content_work"><img class="whatsuplately_img" src="img/whatsuplately.png" alt="whatsuplatetely_left">
+      <div class = "sampleimagebar">
+          <div class="datebar">
+            <p class="Title">Sample Image Post</p>
+            <p class="Subtitle">Photography</p>
+           </div>
+        </div>
+      </div>
+        <div class="content_work"><img class="whatsuplately_img" src="img/sampleimgpost.png" alt="whatsuplatetely_center"></div>
+        <div class="content_work"><img class="whatsuplately_img" src="img/sampleimgpost.png" alt="whatsuplatetely_right"></div>
     </div>
 </section>
+
+<hr class="hrline">
 
 
 
@@ -140,20 +152,23 @@
     <p>Client happy? We are happy.</p>
     </div>
 
-    <div class="grid">
-      <div class="grid-item"><img src="ourlatestprojects-upperleft.jpg" alt="Grid 1"></div>
-      <div class="grid-item"><img src="ourlatestprojects-uppercenter.jpg" alt="Grid 2"></div>
-      <div class="grid-item"><img src="ourlatestprojects-upperright.jpg" alt="Grid 3"></div>
-      <div class="grid-item"><img src="ourlatestprojects-lowerleft.jpg" alt="Grid 4"></div>
-      <div class="grid-item"><img src="ourlatestprojects-lowercenter.jpg" alt="Grid 5"></div>
-      <div class="grid-item"><img src="ourlatestprojects-lowerright.jpg" alt="Grid 6"></div>
+    <div class="project1">
+      <div class="content_project"><img class="ourlatestprojects_img" src="img/ourlatestprojects_blue.png" alt="ourlatestprojects 1"></div>
+      <div class="content_project"><img class="ourlatestprojects_img" src="img/ourlatestprojects.png" alt="ourlatestprojects 2"></div>
+      <div class="content_project"><img class="ourlatestprojects_img" src="img/ourlatestprojects.png" alt="ourlatestprojects 3"></div>
+    </div>
+
+    <div class="project2">
+      <div class="content_project"><img class="ourlatestprojects_img" src="img/ourlatestprojects.png" alt="ourlatestprojects 4"></div>
+      <div class="content_project"><img class="ourlatestprojects_img"  src="img/ourlatestprojects.png" alt="ourlatestprojects 5"></div>
+      <div class="content_project"><img class="ourlatestprojects_img"  src="img/ourlatestprojects.png" alt="ourlatestprojects 6"></div>
   </div>
 </section>
 
 
 
 <section class="thingsofabove">
-  <h4>Thingsofabove</h3>
+  <h4>Thingsofabove</h4>
   <p>Misc stuff we could not put anyplace else</p>
   <div class="content__thingsofabove"> 
     <img src="img/section5image.png" alt="Section5 Image"/>
@@ -182,14 +197,13 @@
   </div>
 </section>
 
-
-<div class="topoffooter">  
-  <h3 class="heading">
-  <h4>Peewee Herman</h4>
-  <p>Peewee has over 10 years in the industry. He is our Creative Director. Digital designer, web designer and front-end developer. He is also pretty good with a sketch book. Before starting the company Peewee worked as a designer and studio manager for a design course who boasted a number of big name clients.</p>
-</div>
-
-<footer class="page__footer"> <!-- row  -->
+<footer class="page__footer"> <!-- row  --> 
+  <div class="topoffooter">  
+      <img src="img/peter.png" alt="peter" width="100" height="100"/>
+    <h4>Peewee Herman</h4>
+    <p>Peewee has over 10 years in the industry. He is our Creative Director. Digital designer, web designer and front-end developer. He is also pretty good with a sketch book. Before starting the company Peewee worked as a designer and studio manager for a design course who boasted a number of big name clients.</p>
+  </div>
+  <div class = row2>
   <div class="column">        <!-- column  -->
     <h4>About Us</h4>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
@@ -217,8 +231,8 @@
       <img src="img/msg.png" alt="message" width="260" height="60"/>
       <img src="img/bar.png" alt="colorbar" width="260" height="60"/>
   </div>
+</div>
 </footer>
-        
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
