@@ -23,6 +23,7 @@
 body {
   margin: 0;
 }
+/* outline: 1px solid #ccc; */
 
 /**
  * Render the `main` element consistently in IE.
